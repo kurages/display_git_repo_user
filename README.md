@@ -4,7 +4,13 @@
 リポジトリルートじゃないと表示できないから要改善
 
 ## how to use
-`.dysplay_git_user_name`を`$HOME`に置いて`~/.bashrc`に`source ~/.dysplay_git_user_name`を追記するだけ
+1. `.dysplay_git_user_name`にメアド、ユーザー名を置き換え
+2. `.dysplay_git_user_name`を`$HOME`に置く
+3. `~/.bashrc`に`source ~/.dysplay_git_user_name`を追記する
+4. `.bashrc`をリロード
+
+リポジトリ作成時は`git-set ユーザー名`
+
 
 ## Exit Code
 - 0: 正常終了
