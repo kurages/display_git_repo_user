@@ -2,6 +2,7 @@
 リポジトリ内にいるとき`git config user.name`の内容を表示します。
 
 ~~リポジトリルートじゃないと表示できないから要改善~~
+-> 済み
 
 ## how to use
 1. `.dysplay_git_user_name`にメアド、ユーザー名を置き換え
